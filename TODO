@@ -12,17 +12,18 @@
       * anything else that will help you execute the design!
 
     * [x] Checkpoint: Sliced the page header, annotated and committed!
-    * [ ] Checkpoint: Sliced section 1, annotated and committed!
+    * [x] Checkpoint: Sliced section 1, annotated and committed!
     * [ ] Checkpoint: Sliced section 2, annotated and committed!
-    * [ ] Checkpoint: Sliced the article header, annotated and committed!
+    * [ ] Checkpoint: Sliced section 3, annotated and commotted!
     * [ ] Checkpoint: Sliced the footer, annotated and committed!
     * [ ] Mission Complete!
 * **Code the Comp!**
     * [x] Checkpoint: Basic HTML structure committed!
     * [ ] Checkpoint: Basic layout CSS committed!
     * [x] Checkpoint: Pixel perfect page header committed!
-    * [ ] Checkpoint: Pixel perfect page footer committed!
-    * [ ] Checkpoint: Pixel perfect column layout committed!
+    * [ ] Checkpoint: Pixel perfect section 2 committed!
+    * [ ] Checkpoint: Pixel perfect section 3 committed!
+    * [ ] Checkpoint: Pixel perfect footer committed!
     * [x] Checkpoint: Pixel perfect layout and typography committed!
     * [ ] Checkpoint: Links with hover states committed!
     * [ ] Mission Complete!

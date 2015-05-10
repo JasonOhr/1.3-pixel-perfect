@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-color: #f2f0ec;
+    
     font-family: "Futura";
     min-width: 1500px;
 
@@ -13,39 +13,44 @@ body {
     margin: 0 auto;
 
 }
+.container2 {
+    width: 941px;
+    margin: 0 auto;
+
+}
 .main { /* top header */
     height: 147px;
     border-bottom: 1px solid #d9d9d9;
     color: #414141;
 
-
+    width: 100%;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #fff;
 
 }
 .main h1 {
     color: #414141;
     font-size: 26px;
     letter-spacing: .0563em;
-    padding-left: 282px;
-    padding-right: 210px;
+
 }
 nav {
-    height: 60px;
+    height: 61px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
     background: linear-gradient(#4f4f4f,#232323);
     margin-bottom: 26px;
 
 
 }
 .logo img {
-    padding-top: 13px;
-    margin-left: 279px;
+    padding-top: 14px;
+
 }
 nav ul {
     display: inline-block;
@@ -61,11 +66,22 @@ nav li {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: .06em;
-    margin-top: 17px;
+    margin-top: 18px;
     margin-right: 36px;
+
 }
 nav li:nth-child(2) {
     letter-spacing: .05em;
+}
+/*===============
+    SECTION 1
+==================*/
+.section1 {
+    background-color: #f2f0ec;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 26px;
+    position: relative;
+    z-index: -5;
 }
 .picture {
 
@@ -92,7 +108,7 @@ nav li:nth-child(2) {
     color: #ffffff;
     padding-top: 13px;
     font-size: 22px;
-    padding-left: 21px;
+    padding-left: 20px;
     letter-spacing: 0.02em;
 }
 .mob-message {
@@ -215,11 +231,13 @@ aside p {
     background-color: #fff;
     margin-left: 5px;
     margin-top: -4px;
-    z-index: -5;
+    z-index: -3;
 
     width: 287px;
     height: 79px;
     position: relative;
+
+
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -324,4 +342,84 @@ li.social-link{
 .social-link span {
     color: #326387;
 
+}
+/*===================
+    SECTION 2
+====================*/
+ .section2 ul{
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+
+    margin:0;
+    padding: 0;
+    margin-top: 38px;
+    margin-left: -1px;
+    border-bottom: 1px solid #b1b1b1;
+    
+}
+.section2 li {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 281px;
+    
+}
+.section2 img {
+    padding: 0;
+    margin: 0;
+    height: 193px;
+    width: 100%;
+    background-color: darkgrey;
+}
+#add-2 {
+    margin: 0 16px;
+}
+.tag {
+    width: 235px;
+    height: 39px;
+    position: relative;
+
+}
+.item {
+    color: #414141;
+    font-size: 14px;
+    padding-top: 2px;
+    margin-left: -1px;
+
+}
+#add-2 .item {
+    margin-left: 1px;
+}
+#add-2 .item-requirements{
+    margin-left: 0;
+}
+#add-3 .item, #add-3 .item-requirements {
+    margin-left: -2px;
+}
+#add-2 .time {
+    right: -67px;
+}
+
+.item-requirements {
+    color: #787878;
+    font-size: 11px;
+    margin-left: -2px;
+
+}
+.time {
+    position: absolute;
+    right: -65px;
+    top: 0;
+    font-size: 12px;
+
+}
+.time img {
+    height: 21px;
+    width: 22px;
+    float: left;
+
+}
+.time div {
+    padding: 5px 0 0 24px;
 }
