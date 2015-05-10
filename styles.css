@@ -9,9 +9,9 @@ body {
 
 }
 .container {
-    min-width: 1500px;
-    padding-left: 279px;
-    padding-right: 281px;
+    width: 940px;
+    margin: 0 auto;
+
 }
 .main { /* top header */
     height: 147px;
@@ -38,7 +38,7 @@ nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid #d1d1d1;
-    background-color: #232323;
+    background: linear-gradient(#4f4f4f,#232323);
     margin-bottom: 26px;
 
 
@@ -84,7 +84,7 @@ nav li:nth-child(2) {
 }
 .picture header {
     height: 56px;
-    background-color: rgba(0,0,0 0.5);
+    background-color: rgba(0,0,0 ,0.5);
 
 
 }
@@ -96,7 +96,7 @@ nav li:nth-child(2) {
     letter-spacing: 0.02em;
 }
 .mob-message {
-    background-color: #cjcdc7;
+    background-color: #cfcdc7;
     height: 83px;
 
     position: relative;
@@ -139,17 +139,27 @@ aside p {
 .mobber-join {
     display: inline-block;
     vertical-align: top;
-    margin-left: 16px;
+    width: 300px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-left: 15px;
 }
 
-.mob-count {
-    margin-right: 16px;
+.mob-count, .mob-count-2 {
+
     margin-top:29px;
     width: 139px;
     display: inline-block;
     vertical-align: top;
 
 }
+.mob-count-2{
+    margin-left: 16px;
+
+}
+
 .counter {
     height: 118px;
     line-height: 52px;
@@ -175,7 +185,7 @@ aside p {
 .join-btn {
     width: 298px;
     height: 60px;
-    background-color: #e1a817;
+    background: linear-gradient(#f7e017,#e1a817);
     border: 1px solid #c39213;
     margin-top: 25px;
     text-align: center;
@@ -197,6 +207,121 @@ aside p {
     padding-left: 3px;
 
 }
+.rewards {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #b1b1b1;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-top: -4px;
+    z-index: -5;
+
+    width: 287px;
+    height: 79px;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
 .rewards span {
     float: right;
+    margin-top:16px;
+    margin-right: 86px;
+    color: #414141;
+
+}
+.rewards img {
+    margin-left: 8px;
+    margin-top: 9px;
+
+}
+.rewards div:first-child{
+    font-size: 18px;
+    letter-spacing: .035em;
+}
+.rewards p {
+    margin-top: -2px;
+    font-size: .9em;
+    letter-spacing: .007px;
+}
+.mob-join-release {
+
+    
+    text-align: center;
+    color: #787878;
+    border-bottom: 1px solid #b1b1b1;
+
+}
+.mob-join-release span{
+    display: inline-block;
+    font-size: 12px;
+    padding: 11px 14px 17px 12px;
+}
+
+ul.social {
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;;
+
+}
+.social li{
+
+    display: inline-block;
+    height: 22px;
+    font-size: 12px;
+    position: relative;
+    border-radius: 3px 4px 4px 4px;
+}
+.social img{
+
+}
+.social a span {
+    text-decoration: none;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+
+}
+li.tweet{
+    width: 55px;
+    background: linear-gradient(#fdfefe,#d5e6f2);
+    border: 1px solid #a6bac9;
+
+}
+.tweet span {
+    color: #226586;
+}
+li.facebook{
+    width: 57px;
+    height: 23px;
+    border: 1px solid #ccd4e6;
+    background-color: #ecedf5;
+    margin-left: -2px;
+}
+.facebook span {
+    color:#455399;
+
+}
+li.google{
+    width: 38px;
+    border: 1px solid #b7b7b7;
+    background:linear-gradient(#fbfbfb,#e4e4e4);
+    margin-left: -2px;
+}
+.google span {
+    color: #d05642;
+
+}
+li.social-link{
+    width: 129px;
+    right: -11px;
+    margin-left: -8px;
+}
+.social-link span {
+    color: #326387;
+
 }
